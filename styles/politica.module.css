@@ -1,0 +1,14 @@
+.containerFluid {
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(1rem);
+    animation: slideUp 0.5s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes slideUp {
+    to {
+        transform: initial;
+        opacity: initial;
+    }
+}

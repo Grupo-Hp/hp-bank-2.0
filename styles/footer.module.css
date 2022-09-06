@@ -1,0 +1,33 @@
+
+.footer {
+    background-image: url(../public/images/footer.jpg);
+    background-size: cover;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.footer h3 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.footer ul {
+    margin-top: 24px;
+}
+
+.footer ul li {
+    padding: 5px 0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    display: flex;
+}
+
+.decoration ul li:hover {
+    text-decoration: underline;
+    text-decoration-color: #BE8F41;
+    text-underline-offset: 8px;
+    cursor: pointer;
+}
+
+.decoration {
+    text-decoration-line: none;
+}

@@ -1,0 +1,9 @@
+.servicos {
+    background-image: url(../public/images/HPbank_BG_serviços.jpg);
+    background-size: cover;
+}
+
+.servicos p {
+    text-align: justify;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,20 @@
+.servicos {
+    background-image: url(../public/images/HPbank_Background.jpg);
+    background-size: cover;
+}
+
+.servicos h3,
+.servicos h4 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.servicos h3,
+.servicos h4,
+.servicos h5 {
+    text-transform: uppercase;
+}
+
+.servicos p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
