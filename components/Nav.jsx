@@ -10,7 +10,7 @@ export default function Nav() {
     return (
         <>
             <NavContact />
-            <div className="shadow-sm py-7 w-full bg-white border-b border-amareloastro-500 z-50">
+            <div className="shadow-sm py-7 w-full bg-white border-b z-50">
                 <div className="w-full container mx-auto">
                     <div className="flex items-center h-20 w-full">
                         <div className="flex items-center  mx-20  justify-between w-full">

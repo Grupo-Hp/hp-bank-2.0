@@ -6,7 +6,7 @@ export default function Destaque() {
             <div className="container mx-auto flex justify-between py-10">
                 <FiPhone className="text-primary-10 text-2xl mr-2" />
                 <div className="border-x-2 border-primary-10">01</div>
-                <div>01</div>
+                <div>02</div>
             </div>
         </div>
     )

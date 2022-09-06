@@ -18,8 +18,6 @@ export default function Header() {
                                 duration={1000}><button type="button" className="inline-block border-2 border-secondary-10 px-12 py-2.5 mt-4 text-white text-lg leading-tight uppercase rounded-3xl hover:bg-secondary-10 hover:shadow-lg focus:bg-secondary-20 focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-500 ease-in-out">fale com um especialista</button>
                             </Link>
                         </div>
-
-                        <div className="invisible mx-auto text-cinzaastro-300 xl:visible xl:col-span-6"></div>
                     </div>
                 </div>
             </div>
