@@ -36,7 +36,7 @@ function sendEmail() {
 
 export default function Contato() {
     return (
-        <div className={`${styles.servicos}`}>
+        <div className={`${styles.servicos} border-t-4 border-secondary-10`}>
             <div className="container mx-auto px-12 py-12">
                 <h4 className='text-xl text-primary-10 font-bold border-b-8 pb-3 border-secondary-10'>fale conosco</h4>
                 <p className="mt-4 text-xl">Preencha as informações no nosso formulário que estaremos entrando em contato o mais rápido possível dando o melhor atendimento.</p>

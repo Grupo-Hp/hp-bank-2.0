@@ -7,7 +7,7 @@ import Detalhes from  '../components/Detalhes'
 import QuemSomos from  '../components/QuemSomos'
 import Frase from  '../components/Frase'
 import Equipe from  '../components/Equipe'
-import Novidades from  '../components/Novidades'
+//import Novidades from  '../components/Novidades'
 import Contato from  '../components/Contato'
 
 export default function Home() {
@@ -22,7 +22,6 @@ export default function Home() {
       <QuemSomos />
       <Frase />
       <Equipe />
-      <Novidades />
       <Contato />
     </Page>
   )
