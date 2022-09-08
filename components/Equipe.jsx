@@ -36,6 +36,7 @@ export default function Servicos() {
                     </div>
                 </div>
             </div>
+            <div id='contato'></div>
         </div>
     )
 }
