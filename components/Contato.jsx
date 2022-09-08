@@ -1,5 +1,5 @@
 import styles from '../styles/servicos.module.css'
-import GoogleMaps from './GoogleMaps'
+import Maps from '../components/GoogleMaps'
 
 function sendEmail() {
     const form = document.getElementById('form')
@@ -91,8 +91,12 @@ export default function Contato() {
                         </div>
                         <div className="col-span-2 md:col-span-1">
                             <h3 className='text-2xl italic text-secondary-30 mb-5'>venha nos visitar</h3>
+                            <p className='leading-1 text-primary-10'>
+                                A HP Bank fica na Rua Miguem de Frias, 77 - sala 1601 <br />
+                                Icaraí - Niterói/RJ
+                            </p>
                             <div>
-                                <GoogleMaps />
+                                <Maps />
                             </div>
                         </div>
                     </div>

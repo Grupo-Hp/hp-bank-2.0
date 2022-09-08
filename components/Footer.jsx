@@ -3,7 +3,8 @@ import Image from 'next/image'
 import { Link } from "react-scroll";
 import { FiPhone } from "react-icons/fi";
 import { GoMail } from "react-icons/go";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { BiMap } from "react-icons/bi";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -57,6 +58,9 @@ export default function Footer() {
                                 >
                                     Fale conosco
                                 </Link></li>
+                                <li><a href='./politica' target='bland'>
+                                    Politica de privacidade
+                                </a></li>
                             </ul>
                         </div>
                         <div className={`order-3 lg:order-2 col-span-2 lg:col-span-1 pb-10 ${styles.decoration}`}>
@@ -77,6 +81,7 @@ export default function Footer() {
                                     duration={1000}
                                     className={`cursor-pointer`}
                                 ><li><GoMail className={`text-secondary-10 text-2xl`} />&ensp;contato@bankhp.com.br</li></Link>
+                                <li><BiMap className={`text-secondary-10 text-4xl`} />&ensp;Rua Miguel de Frias, 77 - Sala 1601, Niterói/RJ</li>
                             </ul>
                         </div>
                         <div className="order-4 col-span-2 lg:col-span-1 pb-10">
