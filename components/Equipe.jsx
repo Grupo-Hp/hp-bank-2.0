@@ -17,6 +17,7 @@ export default function Servicos() {
                         <h4 className='text-xl text-primary-10 font-bold border-b-8 pb-3 border-secondary-10'>equipe</h4>
                         <h3 className='text-2xl italic mt-5 text-secondary-30'>conte com </h3>
                         <h3 className='text-2xl italic mb-5 text-secondary-30'>os melhores</h3>
+
                         <p>
                             Nosso time está disposto a ajudar você a lidar corretamente com suas finanças, independente do porte ou modelo de negócio.
                         </p>

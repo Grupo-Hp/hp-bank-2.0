@@ -5,12 +5,15 @@ const nodemailer = require("nodemailer");
 
 export default function sendMail(req, res) {
 
+  const sesUser = process.env.NEXT_PUBLIC_SES_USER
+  const sesPass = process.env.NEXT_PUBLIC_SES_PASS
+
   let transporter = nodemailer.createTransport({
     host: 'email-smtp.us-east-1.amazonaws.com',
     port: 465,
     auth: {
-      use: process.env.NEXT_PUBLIC_SES_USER,
-      pass: process.env.NEXT_PUBLIC_SES_PASS
+      use: sesUser,
+      pass: sesPass
     }
   })
 
