@@ -1,4 +1,6 @@
 import Page from '../components/Page'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 import PoliticaComponents from '../components/PoliticaComponets'
 import Header from '../components/Header'
 import Destaque from '../components/Destaque'
@@ -15,6 +17,7 @@ export default function Home() {
   return (
     <Page title="HP Bank" description="Site HP Bank" path="/">
       <PoliticaComponents />
+      <Nav />
       <Header />
       <Destaque />
       <Servicos />
@@ -23,6 +26,7 @@ export default function Home() {
       <Frase />
       <Equipe />
       <Contato />
+      <Footer />
     </Page>
   )
 }
