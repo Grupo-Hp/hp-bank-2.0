@@ -9,8 +9,8 @@ export default function sendMail(req, res) {
     host: 'email-smtp.us-east-1.amazonaws.com',
     port: 465,
     auth: {
-      user: 'AKIA6JQEFCPPESRXGSJH',
-      pass: 'BBZsfhA8LY48M/n4Lft9jupaEmtYinBK7l+h73X6h+aJ'
+      use: process.env.NEXT_PUBLIC_SES_USER,
+      pass: process.env.NEXT_PUBLIC_SES_PASS
     }
   })
 

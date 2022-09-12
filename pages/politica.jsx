@@ -261,7 +261,7 @@ export default function PoliticaPage() {
                             </ol>
                         </div>
                     </div>
-
+                                                    
                 </div>
             </div>
         </Page>

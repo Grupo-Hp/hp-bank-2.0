@@ -13,7 +13,7 @@ const center = {
 export default function Maps() {
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyCVejk-1lvqRmkUgSrFJLf6yzqCIvVvPDk"
+      googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS}
     >
       <GoogleMap
         mapContainerStyle={containerStyle}

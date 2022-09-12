@@ -65,7 +65,6 @@ export default function Nav() {
                                     >
                                         fale conosco
                                     </Link>
-
                                 </div>
                             </div>
                         </div>
