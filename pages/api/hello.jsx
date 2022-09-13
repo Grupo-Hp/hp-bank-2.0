@@ -5,21 +5,18 @@ const nodemailer = require("nodemailer");
 
 export default function sendMail(req, res) {
 
-  const sesUser = process.env.NEXT_PUBLIC_SES_USER
-  const sesPass = process.env.NEXT_PUBLIC_SES_PASS
-
   let transporter = nodemailer.createTransport({
     host: 'email-smtp.us-east-1.amazonaws.com',
     port: 465,
     auth: {
-      use: sesUser,
-      pass: sesPass
+      use: 'AKIAVCSUDXUJAF2PUJPQ',
+      pass: 'BJzKPsN682hrD49nceH5F9TuTWn7P4bm0xQZXJARjUo7'
     }
   })
 
   transporter.sendMail({
     from: 'Contato HP Bank <tecnologia@hpcap.com.br>',
-    to: 'debora.campos@hpcap.com.br',
+    to: 'icaro.albar@hpcap.com.br',
     subject: "Mensagem do site HP Bank",
     text: `<b>Nome:</b>${req.body.nome}<br>
            <b>Email:</b>${req.body.email}<br>
