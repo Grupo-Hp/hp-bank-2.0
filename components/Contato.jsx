@@ -18,7 +18,7 @@ export default function Contato() {
     e.preventDefault()
 
     try {
-      await fetch('http://grupohp.com.br:8080/send', {
+      await fetch('https://grupohp.com.br:8080/send', {
         method: 'POST',
         body: JSON.stringify(dataForm),
         headers: { 'Content-Type': 'application/json' }
