@@ -5,6 +5,9 @@ import Maps from '../components/GoogleMaps'
 export default function Contato() {
 
   const [dataForm, setDataForm] = useState({
+    empresa: 'HP Bank',
+    imagem: 'Bank',
+    site: 'https://www.bankhp.com.br/',
     nome: '',
     email: '',
     telefone: '',
