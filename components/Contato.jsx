@@ -7,7 +7,7 @@ export default function Contato() {
   const [dataForm, setDataForm] = useState({
     empresa: 'HP Bank',
     imagem: 'Bank',
-    site: 'https://www.bankhp.com.br/',
+    site: 'http://www.bankhp.com.br',
     nome: '',
     email: '',
     telefone: '',
@@ -40,7 +40,7 @@ export default function Contato() {
         <div>
           <div className="grid grid-cols-2 gap-4 mt-4">
             <div className="col-span-2 md:col-span-1">
-              
+
               <form onSubmit={sendContact}>
 
                 <div className="form-group mb-6">
