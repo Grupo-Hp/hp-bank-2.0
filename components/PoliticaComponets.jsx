@@ -9,7 +9,7 @@ export default function PoliticaComponents() {
     }, [])
 
     const adicionarStorange = () => {
-        document.querySelector('.concordo')?.classList.add('hidden')
+        document.querySelector('.concordo').classList.add('hidden')
         localStorage.setItem('politica', 'ok')
     }
 

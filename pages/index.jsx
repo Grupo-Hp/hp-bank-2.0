@@ -1,4 +1,5 @@
 import Page from '../components/Page'
+import Modal from '../components/Modal'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import PoliticaComponents from '../components/PoliticaComponets'
@@ -16,7 +17,6 @@ export default function Home() {
 
   return (
     <Page title="HP Bank" description="Site HP Bank" path="/">
-      <PoliticaComponents />
       <Nav />
       <Header />
       <Destaque />
@@ -27,6 +27,8 @@ export default function Home() {
       <Equipe />
       <Contato />
       <Footer />
+      <Modal />
+      <PoliticaComponents />
     </Page>
   )
 }

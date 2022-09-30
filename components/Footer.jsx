@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { FiPhone } from "react-icons/fi";
 import { GoMail } from "react-icons/go";
 import { BiMap } from "react-icons/bi";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaMapMarkerAlt } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
     return (
