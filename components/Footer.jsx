@@ -67,7 +67,7 @@ export default function Footer() {
                             <h3>Grupo HP</h3>
                             <ul>
                                 <li><a href="https://www.agaempreendimentos.com.br/" target='blank'>AGÁ Empreendimentos</a></li>
-                                <li><a href="https://www.hpbank.com.br/" target='blank'>HP Bank</a></li>
+                                <li><a href="https://www.hpcap.com.br/" target='blank'>HP Capital</a></li>
                             </ul>
                         </div>
                         <div className={`order-3 lg:order-2 col-span-2 lg:col-span-1 pb-10 ${styles.decoration}`}>
