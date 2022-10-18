@@ -14,7 +14,7 @@ export default function Footer() {
                     <div className='text-center py-32'>
                         <Image src="/images/logo.png" width="180" height="180" alt="" />
                     </div>
-                    <div className="w-11/12 sm:w-10/12 mx-auto grid grid-cols-4">
+                    <div className="w-11/12 sm:w-10/12 mx-auto grid grid-cols-5 gap-x-10">
                         <div className={`order-1 col-span-2 lg:col-span-1 pb-10 ${styles.decoration}`}>
                             <h3>menu</h3>
                             <ul>
@@ -64,7 +64,14 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div className={`order-3 lg:order-2 col-span-2 lg:col-span-1 pb-10 ${styles.decoration}`}>
-                            <h3>colaborador</h3>
+                            <h3>Grupo HP</h3>
+                            <ul>
+                                <li><a href="https://www.agaempreendimentos.com.br/" target='blank'>AGÁ Empreendimentos</a></li>
+                                <li><a href="https://www.hpbank.com.br/" target='blank'>HP Bank</a></li>
+                            </ul>
+                        </div>
+                        <div className={`order-3 lg:order-2 col-span-2 lg:col-span-1 pb-10 ${styles.decoration}`}>
+                            <h3>Colaborador</h3>
                             <ul>
                                 <li><a href="https://login.microsoftonline.com/" target='blank'>Webmail</a></li>
                                 <li><a href="#">Operador</a></li>
