@@ -15,7 +15,7 @@ export default function Modal() {
     }
 
     return (
-        <div className={`fixed w-full h-full top-0 text-white modal ${styles.containerFluid}`}>
+        <div className={`fixed w-full h-full overflow-auto top-0 text-white modal ${styles.containerFluid}`}>
             <div className="w-3/4 max-w-xl mx-auto mt-16 rounded-xl p-5 bg-primary-20 border-2 border-secondary-20">
                 <TbAlertTriangle className={`text-white text-7xl mx-auto mb-5`} />
                 <h3 className="font-bold uppercase text-2xl mb-5 text-center bg-secondary-10">importante</h3>
