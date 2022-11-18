@@ -88,7 +88,7 @@ export default function Footer() {
                                     duration={1000}
                                     className={`cursor-pointer`}
                                 ><li><GoMail className={`text-secondary-10 text-2xl`} />&ensp;contato@bankhp.com.br</li></Link>
-                                <li><BiMap className={`text-secondary-10 text-4xl`} />&ensp;Rua Miguel de Frias, 77 - Sala 1601, Niterói/RJ</li>
+                                <li><BiMap className={`text-secondary-10 text-4xl`} />&ensp;Av. Pref. Silvio Picanço, 463 - Sala 708/711, Niterói/RJ</li>
                             </ul>
                         </div>
                         <div className="order-4 col-span-2 lg:col-span-1 pb-10">

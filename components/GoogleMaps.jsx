@@ -6,8 +6,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: -22.9023394,
-  lng: -43.1174249
+  lat: -22.923696017767924,
+  lng: -43.0942121161893
 };
 
 export default function Maps() {
