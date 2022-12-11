@@ -58,6 +58,9 @@ export default function Footer() {
                                 >
                                     Fale conosco
                                 </Link></li>
+                                <li><a href='https://dash-sergio.vercel.app/' target='bland'>
+                                    Area do cliente
+                                </a></li>
                                 <li><a href='./politica' target='bland'>
                                     Politica de privacidade
                                 </a></li>
