@@ -58,7 +58,7 @@ export default function Footer() {
                                 >
                                     Fale conosco
                                 </Link></li>
-                                <li><a href='https://dash-sergio.vercel.app/' target='bland'>
+                                <li><a href='https://dash-bankhp.vercel.app/' target='bland'>
                                     Area do cliente
                                 </a></li>
                                 <li><a href='./politica' target='bland'>
