@@ -78,7 +78,7 @@ export default function Footer() {
                             <ul>
                                 <li><a href="https://login.microsoftonline.com/" target='blank'>Webmail</a></li>
                                 <li><a href="#">Operador</a></li>
-                                <li><a href="https://glpi.hpcap.com.br/">GLPI</a></li>
+                                <li><a href="https://glpi.hpcap.com.br/" target='blank'>GLPI</a></li>
                             </ul>
                         </div>
                         <div className="order-2 lg:order-3 col-span-2 lg:col-span-1 pb-10">
